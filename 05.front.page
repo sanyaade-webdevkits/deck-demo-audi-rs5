@@ -19,7 +19,7 @@
     <block id="borders" type="group" referential-anchor="top-left" anchor="top-left">
     </block>
     <!-- Plate -->
-    <block type="image" referential-anchor="bottom-left" anchor="bottom-left">
+    <block type="group" referential-anchor="bottom-left" anchor="bottom-left">
       <state id="portrait">
         <size>758px 204px</size>
         <position>0px 0px</position>
@@ -40,8 +40,8 @@
         <size>1014px 100px</size>
         <position>0px -148px</position>
       </state>
-       <image>Gradient.png</image>
-       <autosizing>aspect-fill</autosizing>
+      <image>Gradient.png</image>
+      <autosizing>aspect-fill</autosizing>
     </block>
     <!-- Text -->
     <block type="group">
