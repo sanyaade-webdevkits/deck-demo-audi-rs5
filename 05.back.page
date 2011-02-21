@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <background-color>0.0 0.0 0.0</background-color>
+  <blocks>
+    <!-- *********** left block ********** -->
+    <block type="group" fade-state-changes="yes">
+      <blocks>
+        <!-- number -->
+        <block type="string" id="title-1" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>160px 220px</size>
+          </state>
+          <state id="portrait">
+            <position>40px 30px</position>
+          </state>
+          <state id="landscape">
+            <position>30px 30px</position>
+          </state>
+          <font>
+            <size>224px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+            <line-height-multiple>0.8</line-height-multiple>
+          </paragraph-style>
+          <foreground-color>0.3 0.3 0.3</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>5</string>
+        </block>
+        <!-- title 1 -->
+        <block type="string" referential-id="title-1" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>240px 25px</size>
+            <position>0px 0px</position>
+          </state>
+          <font>
+            <size>20px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <string>Infomation</string>
+        </block>
+        <!-- short text 1 -->
+        <block type="string" referential-id="title-1" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <position>0px 30px</position>
+          </state>
+          <state id="portrait">
+            <size>648px 80px</size>
+          </state>
+          <state id="landscape">
+            <size>240px 200px</size>
+          </state>
+          <font>
+            <size>16px</size>
+            <name>Helvetica Neue</name>
+          </font>
+          <paragraph-style>
+            <alignment>justify</alignment>
+            <line-breaking>wrap-words</line-breaking>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <string>By placing an order for your Audi, you’re choosing to get behind the wheel of one of the most sophisticated cars on the road. And because we believe the service we offer should be just as advanced, we wanted to let you know exactly what you can expect from us, now and in the future.
+          </string>
+        </block>
+      </blocks>
+    </block>
+    <!-- *********** right block ********** -->
+    <block type="group" referential-anchor="top-left" anchor="top-left">
+      <state>
+        <size>648px 580px</size>
+      </state>
+      <state id="portrait">
+        <position>40px 250px</position>
+      </state>
+      <state id="landscape">
+        <position>300px 30px</position>
+      </state>
+      <blocks>
+        <!-- title 2 -->
+        <block type="string" id="title-2" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>240px 30px</size>
+            <position>0px 0px</position>
+          </state>
+          <font>
+            <size>20px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>Exterior equipment</string>
+        </block>
+        <!-- short text 2-->
+        <block type="string" referential-id="title-2" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <position>0px 30px</position>
+            <size>648px 40px</size>
+          </state>
+          <font>
+            <size>16px</size>
+            <name>Helvetica Neue</name>
+          </font>
+          <paragraph-style>
+            <alignment>justify</alignment>
+            <line-breaking>wrap-words</line-breaking>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>Make sure your car looks exactly as you want it to by selecting some of our striking options.</string>
+        </block>
+        <!-- *********** 3 image set ********** -->
+        <block type="group" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>648px 300px</size>
+            <position>0px 90px</position>
+          </state>
+          <blocks>
+            <!-- image 1 -->
+            <block type="image" id="equip-1" referential-anchor="top-left" anchor="top-left" autosize="yes">
+              <state>
+                <position>0px 0px</position>
+              </state>
+              <image>Equip1.jpg</image>
+            </block>
+            <!-- caption 1 -->
+            <block type="string" referential-id="equip-1" referential-anchor="bottom-left" anchor="top-left">
+              <state>
+                <position>0px 5px</position>
+                <size>210px 30px</size>
+              </state>
+              <font>
+                <size>12px</size>
+                <name>Helvetica Neue</name>
+              </font>
+              <paragraph-style>
+                <alignment>left</alignment>
+              </paragraph-style>
+              <columns>
+                <alignment>top</alignment>
+              </columns>
+              <foreground-color>1.0 1.0 1.0</foreground-color>
+              <background-color>0.0 0.0 0.0</background-color>
+              <string>Basic RRP:£725.00
+Electric tile panoramic sunroof</string>
+            </block>
+            <!-- image 2 -->
+            <block type="image" id="equip-2" referential-anchor="top-center" anchor="top-center" autosize="yes">
+              <state>
+                <position>0px 0px</position>
+              </state>
+              <image>Equip2.jpg</image>
+            </block>
+            <!-- caption 2 -->
+            <block type="string" referential-id="equip-2" referential-anchor="bottom-left" anchor="top-left">
+              <state>
+                <position>0px 5px</position>
+                <size>210px 60px</size>
+              </state>
+              <font>
+                <size>12px</size>
+                <name>Helvetica Neue</name>
+              </font>
+              <paragraph-style>
+                <alignment>left</alignment>
+              </paragraph-style>
+              <columns>
+                <alignment>top</alignment>
+              </columns>
+              <foreground-color>1.0 1.0 1.0</foreground-color>
+              <background-color>0.0 0.0 0.0</background-color>
+              <string>Basic RRP:£566.67
+Matt aluminium styling package
+rear diffuser in matt aluminium</string>
+            </block>
+            <!-- image 3 -->
+            <block type="image" id="equip-3" referential-anchor="top-right" anchor="top-right" autosize="yes">
+              <state>
+                <position>0px 0px</position>
+              </state>
+              <image>Equip3.jpg</image>
+            </block>
+            <!-- caption 3 -->
+            <block type="string" referential-id="equip-3" referential-anchor="bottom-left" anchor="top-left">
+              <state>
+                <position>0px 5px</position>
+                <size>210px 60px</size>
+              </state>
+              <font>
+                <size>12px</size>
+                <name>Helvetica Neue</name>
+              </font>
+              <paragraph-style>
+                <alignment>left</alignment>
+              </paragraph-style>
+              <columns>
+                <alignment>top</alignment>
+              </columns>
+              <foreground-color>1.0 1.0 1.0</foreground-color>
+              <background-color>0.0 0.0 0.0</background-color>
+              <string>Basic RRP:£566.67
+Matt aluminium styling package
+front lip spoiler</string>
+            </block>
+          </blocks>
+        </block>
+        <!-- title 3 -->
+        <block type="string" id="title-3" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>240px 30px</size>
+            <position>0px 300px</position>
+          </state>
+          <font>
+            <size>20px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>Dimensions</string>
+        </block>
+        <!-- short text 3-->
+        <block type="string" referential-id="title-3" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <position>0px 30px</position>
+            <size>648px 60px</size>
+          </state>
+          <font>
+            <size>16px</size>
+            <name>Helvetica Neue</name>
+          </font>
+          <paragraph-style>
+            <alignment>justify</alignment>
+            <line-breaking>wrap-words</line-breaking>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>The technical drawings opposite show the exact dimensions of the RS 5 Saloon, so you can check everything – from whether the car will fit in your garage to whether your luggage will fit in the boot.</string>
+        </block>
+        <!-- Dimensions image -->
+        <block type="image" referential-id="title-3" referential-anchor="top-left" anchor="top-left" autosize="yes">
+          <state>
+            <position>0px 100px</position>
+          </state>
+          <image>Dimensions.png</image>
+        </block>
+      </blocks>
+    </block>
+  </blocks>
+</page>

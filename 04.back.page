@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <background-color>0.0 0.0 0.0</background-color>
+  <blocks>
+    <!-- *********** photo & plate ********** -->
+    <!-- Photo top-right -->
+    <block type="image" referential-anchor="top-right" autosize="yes">
+      <state id="portrait">
+        <position>-160px 175px</position>
+        <size>364px 350px</size>
+      </state>
+      <state id="landscape">
+        <position>-246px 140px</position>
+        <size>492px 280px</size>
+      </state>
+      <autosizing>aspect-fill</autosizing>
+      <image>Engine.jpg</image>
+    </block>
+    <!-- Photo bottom-left -->
+    <block type="image" referential-anchor="bottom-left" autosize="yes">
+      <state id="portrait">
+        <position>182px -267px</position>
+        <size>364px 534px</size>
+      </state>
+      <state id="landscape">
+        <position>246px -184px</position>
+        <size>492px 368px</size>
+      </state>
+      <autosizing>aspect-fill</autosizing>
+      <image>Transmission.jpg</image>
+    </block>
+    <!-- Plate top-left -->
+    <block type="image" referential-anchor="center" anchor="bottom-right">
+      <state id="portrait">
+        <position>0px -92px</position>
+        <size>364px 350px</size>
+      </state>
+      <state id="landscape">
+        <position>0px -44px</position>
+        <size>492px 270px</size>
+      </state>
+      <background-color>0.0 0.0 0.0</background-color>
+    </block>
+    <!-- Plate bottom-right -->
+    <block type="image" referential-anchor="center" anchor="top-left">
+      <state id="portrait">
+        <position>0px -92px</position>
+        <size>364px 534px</size>
+      </state>
+      <state id="landscape">
+        <position>0px -44px</position>
+        <size>492px 358px</size>
+      </state>
+      <background-color>0.0 0.0 0.0</background-color>
+    </block>
+    <!-- *********** Text ********** -->
+    <block type="group">
+      <blocks>
+        <!-- number -->
+        <block type="string" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>160px 220px</size>
+            <position>30px 30px</position>
+          </state>
+          <font>
+            <size>224px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+            <line-height-multiple>0.8</line-height-multiple>
+          </paragraph-style>
+          <foreground-color>0.3 0.3 0.3</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>4</string>
+        </block>
+        <!-- title left -->
+        <block type="string" id="title-left" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <size>304px 25px</size>
+            <position>30px 30px</position>
+          </state>
+          <font>
+            <size>20px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <string>Powerful V8 engine</string>
+        </block>
+        <!-- short text left -->
+        <block type="string" referential-id="title-left" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <position>0px 40px</position>
+          </state>
+          <state id="portrait">
+            <size>304px 175px</size>
+          </state>
+          <state id="landscape">
+            <size>432px 120px</size>
+          </state>
+          <font>
+            <size>16px</size>
+            <name>Helvetica Neue</name>
+          </font>
+          <paragraph-style>
+            <alignment>justify</alignment>
+            <line-breaking>wrap-words</line-breaking>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <string>The engine is coupled with an enhanced 7-speed S tronic gearbox. This innovative dual-clutch transmission enables gearshifts to be executed in a few hundredths of a second with virtually no interruption in power flow.
+This is the first time that this gearbox has been fitted in conjunction with a high-revving engine.</string>
+        </block>
+        <!-- title right -->
+        <block type="string" id="title-right" referential-anchor="center" anchor="top-left">
+          <state>
+            <size>304px 25px</size>
+          </state>
+          <state id="portrait">
+            <position>30px -60px</position>
+          </state>
+          <state id="landscape">
+            <position>30px -15px</position>
+          </state>
+          <font>
+            <size>20px</size>
+            <name>Helvetica Neue Bold</name>
+          </font>
+          <paragraph-style>
+            <alignment>left</alignment>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>Transmission</string>
+        </block>
+        <!-- short text right -->
+        <block type="string" referential-id="title-right" referential-anchor="top-left" anchor="top-left">
+          <state>
+            <position>0px 40px</position>
+          </state>
+          <state id="portrait">
+            <size>304px 250px</size>
+          </state>
+          <state id="landscape">
+            <size>432px 180px</size>
+          </state>
+          <font>
+            <size>16px</size>
+            <name>Helvetica Neue</name>
+          </font>
+          <paragraph-style>
+            <alignment>justify</alignment>
+            <line-breaking>wrap-words</line-breaking>
+          </paragraph-style>
+          <foreground-color>1.0 1.0 1.0</foreground-color>
+          <background-color>0.0 0.0 0.0</background-color>
+          <string>Driving is all about thinking ahead, which is just what the S tronic dual-clutch transmission does.
+It works almost as two separate systems, one engaging the odd-numbered and the other the even-numbered gears. So when you're accelerating in second, it has third gear waiting for you. And once you make the switch, it's already thinking about fourth. With two clutches working together, you can change gears almost instantly while experiencing smooth, uninterrupted power.</string>
+        </block>
+      </blocks>
+    </block>
+  </blocks>
+</page>

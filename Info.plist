@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Audi RS5</string>
+	<key>tintColor</key>
+	<string>0.4 0.4 0.4</string>
+	<key>linkTitle</key>
+	<string>Learn More</string>
+	<key>linkURL</key>
+	<string>http://models.audiusa.com/</string>
+	<key>hideBorders</key>
+	<true/>
+</dict>
+</plist>
